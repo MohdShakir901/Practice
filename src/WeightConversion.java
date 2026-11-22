@@ -25,8 +25,11 @@ public class WeightConversion {
             weight = scanner.nextDouble();
             newWeight = weight * 2.2046226218;
             System.out.printf("%.2f kgs = %.2f lbs", weight,newWeight);
+        } else{
+            System.out.println("That was not a valid choice!");
         }
 
+        scanner.close();
 
     }
 
